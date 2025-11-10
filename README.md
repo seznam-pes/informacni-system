@@ -1,13 +1,13 @@
-# Informační systém
+# Informační systém 🖥️
 ## Název systému
 #### BazarANT
-## Krátký popis
+## Krátký popis 📝
 #### Klasický bazar - uživatel může přidávat inzeráty, administrátor je v případě nutnosti může mazat, atd.
-## Cíl systému
+## Cíl systému 🎯
 #### Umožní lidem sehnat věci, které by v klasickém obchodě jinde nesehnali nebo věci za sníženou cenu.
-## Cílová skupina
+## Cílová skupina 👥
 #### Lidé, kteří chtějí prodat svůj předmět a lidé, kteří chtějí cokoli nakoupit (třeba sběratelé).
-## Základní funkce (Role a oprávnění)
+## Základní funkce (Role a oprávnění) 
 #### Neověřený uživatel:
 - Zobrazení inzerátu 
 - Vyhledávání, filtrace a řazení inzerátů
@@ -20,7 +20,7 @@
 -  Správa inzerátů (možnost smazat, propagovat nebo upravit inzerát)
 - Správa účtů (možnost smazat / zabanovat účet)
 - Stejná práva jako ověřený uživatel
-## Spravovaná data (Příklady)
+## Spravovaná data 📊
 - Titulek inzerátu
 - Popis inzerátu
 - E-mail inzerenta
