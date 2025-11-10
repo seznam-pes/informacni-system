@@ -1,26 +1,34 @@
-# informacni-system
-## Co musí váš README.md obsahovat:
-### Váš popis musí být strukturovaný a obsahovat následující sekce (použijte markdown nadpisy):
-## Název projektu
-### Např. Informační systém pro dobrovolné hasiče "Plamen"
+# Informační systém
+## Název systému
+#### BazarANT
 ## Krátký popis
-### Jedna až dvě věty vystihující podstatu.
-### Příklad: Jednoduchá webová aplikace pro správu členů, evidenci techniky a plánování zásahů pro sbor dobrovolných hasičů.
-## Cíl systému a cílová skupina
-### Komu má systém sloužit? (Např. velitel sboru, jednotliví hasiči, hospodář...)
-### Jaký problém řeší? Co usnadní? (Např. Nahradí papírovou knihu jízd, zjednoduší svolávání na akci, zpřehlední, kdo má propadlé školení.)
+#### Klasický bazar - uživatel může přidávat inzeráty, administrátor je v případě nutnosti může mazat, atd.
+## Cíl systému
+#### Umožní lidem sehnat věci, které by v klasickém obchodě jinde nesehnali nebo věci za sníženou cenu.
+## Cílová skupina
+#### Lidé, kteří chtějí prodat svůj předmět a lidé, kteří chtějí cokoli nakoupit (třeba sběratelé).
 ## Základní funkce (Role a oprávnění)
-### Stručně v bodech popište, co klíčoví uživatelé budou moci dělat.
-### Příklad pro Běžného hasiče:
-#### Zobrazit si svůj profil a termíny školení.
-#### Potvrdit/odmítnout účast na plánované akci.
-#### Zobrazit seznam dostupné techniky.
-### Příklad pro Velitele (Admina):
-#### Spravovat seznam členů (přidat, odebrat).
-#### Vytvářet nové akce a sledovat účast.
-#### Evidovat provedené kontroly techniky.
-#### Spravovaná data (Příklady)
-### Jen stručný výčet, jaká data bude systém primárně uchovávat.
-### Příklad: Seznam členů (jméno, adresa, školení), Seznam techniky (cisterna, hadice), Kalendář akcí, Kniha jízd...
-
-## použij Markdown
+#### Neověřený uživatel:
+- Zobrazení inzerátu 
+- Vyhledávání, filtrace a řazení inzerátů
+#### Ověřený uživatel:
+- Tvorba inzerátu
+- Propagace inzerátu (možnost dostat svůj inzerát do popředí vyhledávání)
+- Možnost kontaktovat prodejce
+- Stejná práva jako neověřený uživatel
+#### Administrátor webu:
+-  Správa inzerátů (možnost smazat, propagovat nebo upravit inzerát)
+- Správa účtů (možnost smazat / zabanovat účet)
+- Stejná práva jako ověřený uživatel
+## Spravovaná data (Příklady)
+- Titulek inzerátu
+- Popis inzerátu
+- E-mail inzerenta
+- Tel. číslo inzerenta
+- Fotky přiložené k inzerátu
+- Je inzerát propagován? (A/N parametr)
+- Cena předmětu v inzerátu
+- Místo prodeje
+- Datum vytvoření inzerátu
+- E-mail uživatele
+    - Ověření uživatele a přihlášení bude probíhat přes ověřovací kód zaslaný na e-mail.
