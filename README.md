@@ -15,6 +15,7 @@
 - Tvorba inzerátu
 - Propagace inzerátu (možnost dostat svůj inzerát do popředí vyhledávání)
 - Možnost kontaktovat prodejce
+- Možnost uložit inzerát
 - Stejná práva jako neověřený uživatel
 #### Administrátor webu 👨‍💻
 -  Správa inzerátů (možnost smazat, propagovat nebo upravit inzerát)
@@ -32,3 +33,4 @@
 - Datum vytvoření inzerátu
 - E-mail uživatele
     - Ověření uživatele a přihlášení bude probíhat přes ověřovací kód zaslaný na e-mail.
+- Uložené inzeráty ověřeného uživatele 
