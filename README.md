@@ -13,12 +13,11 @@
 - Vyhledávání, filtrace a řazení inzerátů
 #### Ověřený uživatel ✅
 - Tvorba inzerátu
-- Propagace inzerátu (možnost dostat svůj inzerát do popředí vyhledávání)
 - Možnost kontaktovat prodejce
 - Možnost uložit inzerát
 - Stejná práva jako neověřený uživatel
 #### Administrátor webu 👨‍💻
--  Správa inzerátů (možnost smazat, propagovat nebo upravit inzerát)
+-  Správa inzerátů (možnost smazat nebo upravit inzerát)
 - Správa účtů (možnost smazat / zabanovat účet)
 - Stejná práva jako ověřený uživatel
 ## Spravovaná data 📊
@@ -27,10 +26,8 @@
 - E-mail inzerenta
 - Tel. číslo inzerenta
 - Fotky přiložené k inzerátu
-- Je inzerát propagován? (A/N parametr)
 - Cena předmětu v inzerátu
-- Místo prodeje
 - Datum vytvoření inzerátu
 - E-mail uživatele
-    - Ověření uživatele a přihlášení bude probíhat přes ověřovací kód zaslaný na e-mail.
+- Heslo uživatele
 - Uložené inzeráty ověřeného uživatele 
